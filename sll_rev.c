@@ -1,4 +1,4 @@
-// Iterative C program to reverse a linked list
+// program to reverse a linked list
 #include <stdio.h>
 #include <stdlib.h>
  
