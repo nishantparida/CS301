@@ -1,4 +1,7 @@
-/* Initialize nodes */
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct node
+  /* Initialize nodes */
 struct node *last;
 struct node *one = NULL;
 struct node *two = NULL;
@@ -21,3 +24,4 @@ three->next = one;
 
 /* Save address of third node in last */
 last = three;
+}
